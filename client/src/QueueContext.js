@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const SERVER_URL = process.env.REACT_APP_SERVER_URL || "http://localhost:4000";
+const SERVER_URL = "https://queue-cure-26-ok3l.onrender.com";
 
 // Create one socket instance shared across the app
 const socket = io(SERVER_URL, { autoConnect: true });
